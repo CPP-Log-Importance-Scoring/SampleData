@@ -4,6 +4,7 @@ Overview
 
 This repository contains a synthetic log dataset generated for a log analysis system. The dataset is designed to simulate real-world logs from multiple sources and supports tasks such as log parsing, normalization, importance scoring, and incident correlation.
 
+
 Dataset Description
 
 The dataset includes 10,000+ log entries in syslog-style format. Logs are generated from different system components to reflect a heterogeneous environment.
@@ -22,6 +23,7 @@ System logs (syslog messages)
 
 Configuration logs (Manager events)
 
+
 Format
 
 Each log entry follows a syslog-style format:
@@ -31,6 +33,7 @@ Each log entry follows a syslog-style format:
 Example:
 
 <191>Mar 12 10:00:25 sw-access-01 PORT: port 1/0/20 changed state to down
+
 
 Schema Alignment
 
@@ -66,6 +69,7 @@ message
 
 metadata
 
+
 Purpose
 
 This dataset is intended for:
@@ -79,6 +83,7 @@ This dataset is intended for:
 -> Importance scoring
 
 -> Incident detection and correlation
+
 
 Usage
 
