@@ -80,6 +80,10 @@ Example:
 - <191>Mar 12 14:40:02 sw-core-01 PORT: port 1/0/2 changed state to down
 - <191>Mar 12 14:40:03 sw-core-01 PORT: port 1/0/3 changed state to down
 
+# 4. logs4.txt:
+
+Contains ~15,000 syslog-format logs covering network, system, web, and application events with varied severity levels. Includes periodic burst patterns (10–20 logs per ~1000 entries) to simulate anomalies, and is sorted by timestamp for parsing and analysis.
+
 ---
 
 # Schema Alignment
