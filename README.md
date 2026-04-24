@@ -84,6 +84,10 @@ Example:
 
 Contains ~15,000 syslog-format logs covering network, system, web, and application events with varied severity levels. Includes periodic burst patterns (10–20 logs per ~1000 entries) to simulate anomalies, and is sorted by timestamp for parsing and analysis.
 
+# 5. logs5.txt:
+
+A synthetic ~15K log dataset simulating a multi-host environment (firewall, router, switch, web, and application servers) with realistic background noise and diverse event types. It includes explicitly timed attack chains (e.g., firewall deny → port scan → web probing → authentication failure) and infrastructure failure cascades (port down → routing issues → application/web errors), making it well-suited for evaluating log correlation, anomaly detection, and security event analysis systems.
+
 ---
 
 # Schema Alignment
